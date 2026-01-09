@@ -1,0 +1,60 @@
+==== Plan 694ab853d3777830450180f6 Quality ====
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e598fb0 Feedback: 3  | Description: Guided meditation can help change the brain's response to pain signals. By focusing the mind and promoting relaxation, it can decrease the intensity of perceived pain and improve coping mechanisms for chronic discomfort.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e598fd0 Feedback: 5  | Description: Pain and inflammation can disrupt sleep, and poor sleep can increase pain perception and fatigue. Prioritizing a consistent sleep schedule and allowing for rest during the day can help manage the energy drain from endometriosis and improve pain coping.
+Tag: [NEW] [MEDIUM_BAD] Primitive ID: 694aa1e9360194e67e59919d Feedback: 2  | Description: Diaphragmatic breathing, or belly breathing, encourages the diaphragm to descend, which gently massages the pelvic floor, promoting relaxation and reducing hypertonicity often associated with endometriosis pain.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e5991a2 Feedback: 5  | Description: Unlike Kegels, which contract the pelvic floor, pelvic floor drops focus on consciously lengthening and releasing these muscles. This is crucial for individuals with endometriosis who often have an overactive or tight pelvic floor.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e5991f7 Feedback: 5  | Description: Curcumin, the active compound in turmeric, is a potent anti-inflammatory agent that can help modulate inflammatory pathways associated with endometriosis, potentially reducing pain.
+Sum of helpfulness: 20
+Cummulative sum of helpfulness: 20
+
+
+==== Plan 694ab901d3777830450182e5 Quality ====
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e598fb5 Feedback: 4  | Description: Ginger contains gingerol, a compound with potent anti-inflammatory and analgesic properties. Drinking warm ginger tea can help reduce inflammation, alleviate nausea, and soothe menstrual cramps.
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e598fbf Feedback: 3  | Description: Tight clothing, especially around the waist and abdomen, can put pressure on a bloated and sensitive belly, exacerbating pain and discomfort. Wearing loose, soft, and comfortable clothing can prevent this added pressure and improve overall comfort.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e59907e Feedback: 4  | Description: Magnesium may help reduce menstrual cramps and pelvic pain associated with endometriosis by relaxing smooth muscle tissue and reducing prostaglandins, which are inflammatory compounds that contribute to pain.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e5990c2 Feedback: 4  | Description: Pycnogenol, an extract from French maritime pine bark, has been shown in clinical studies to significantly reduce pain and other symptoms of endometriosis. Its strong antioxidant and anti-inflammatory properties are thought to be responsible for these effects.
+Tag: [MEDIUM_BAD] Primitive ID: 694aa1e9360194e67e59919d Feedback: 2  | Description: Diaphragmatic breathing, or belly breathing, encourages the diaphragm to descend, which gently massages the pelvic floor, promoting relaxation and reducing hypertonicity often associated with endometriosis pain.
+2025-12-23 11:54:24 [error]: Already bad item: 694aa1e9360194e67e59919d
+Sum of helpfulness: 17
+Cummulative sum of helpfulness: 37
+
+
+
+==== Plan 694ab9bad3777830450184d4 Quality ====
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e598ff2 Feedback: 5  | Description: Adequate sleep is crucial for hormone regulation, immune function, and reducing inflammation. Poor sleep can exacerbate pain perception and fatigue in individuals with endometriosis.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e599040 Feedback: 4  | Description: Curcumin, the active compound in turmeric, is a powerful anti-inflammatory agent. It works by inhibiting key inflammatory pathways, which may help to reduce the pain and inflammation associated with endometriosis lesions.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e5990ff Feedback: 5  | Description: Experiment with different sleep positions to find what is most comfortable for you. Many with endometriosis find relief by sleeping on their side with a pillow between their knees, or on their back with a pillow under their knees to reduce pressure on the pelvis.
+Tag: [MEDIUM_BAD] Primitive ID: 694aa1e9360194e67e59919d Feedback: 2  | Description: Diaphragmatic breathing, or belly breathing, encourages the diaphragm to descend, which gently massages the pelvic floor, promoting relaxation and reducing hypertonicity often associated with endometriosis pain.
+2025-12-23 11:54:24 [error]: Already bad item: 694aa1e9360194e67e59919d
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e5991a2 Feedback: 5  | Description: Unlike Kegels, which contract the pelvic floor, pelvic floor drops focus on consciously lengthening and releasing these muscles. This is crucial for individuals with endometriosis who often have an overactive or tight pelvic floor.
+Sum of helpfulness: 21
+Cummulative sum of helpfulness: 58
+
+
+
+==== Plan 694aba7bd3777830450186c3 Quality ====
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e598ff2 Feedback: 5  | Description: Adequate sleep is crucial for hormone regulation, immune function, and reducing inflammation. Poor sleep can exacerbate pain perception and fatigue in individuals with endometriosis.
+Tag: [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e59907e Feedback: 4  | Description: Magnesium may help reduce menstrual cramps and pelvic pain associated with endometriosis by relaxing smooth muscle tissue and reducing prostaglandins, which are inflammatory compounds that contribute to pain.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e5990ff Feedback: 5  | Description: Experiment with different sleep positions to find what is most comfortable for you. Many with endometriosis find relief by sleeping on their side with a pillow between their knees, or on their back with a pillow under their knees to reduce pressure on the pelvis.
+Tag: [MEDIUM_BAD] Primitive ID: 694aa1e9360194e67e59919d Feedback: 2  | Description: Diaphragmatic breathing, or belly breathing, encourages the diaphragm to descend, which gently massages the pelvic floor, promoting relaxation and reducing hypertonicity often associated with endometriosis pain.
+2025-12-23 11:54:24 [error]: Already bad item: 694aa1e9360194e67e59919d
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e5991a2 Feedback: 5  | Description: Unlike Kegels, which contract the pelvic floor, pelvic floor drops focus on consciously lengthening and releasing these muscles. This is crucial for individuals with endometriosis who often have an overactive or tight pelvic floor.
+Sum of helpfulness: 21
+Cummulative sum of helpfulness: 79
+
+
+
+
+
+==== Plan 694abb2fd3777830450188b2 Quality ====
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e59903d Feedback: 4  | Description: Endometriosis is associated with high levels of oxidative stress. Antioxidants, abundant in berries, leafy greens, and colorful vegetables, help neutralize free radicals, thereby reducing cellular damage and inflammation in the pelvic cavity.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e5990ff Feedback: 5  | Description: Experiment with different sleep positions to find what is most comfortable for you. Many with endometriosis find relief by sleeping on their side with a pillow between their knees, or on their back with a pillow under their knees to reduce pressure on the pelvis.
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e59913e Feedback: 3  | Description: Also known as 'belly breathing,' this technique involves deep, slow breaths that engage the diaphragm. It helps to calm the central nervous system, reduce the 'fight or flight' response associated with pain, gently mobilize the viscera, and release tension in the abdominal and pelvic muscles.
+Tag: [MEDIUM_BAD] Primitive ID: 694aa1e9360194e67e59919d Feedback: 2  | Description: Diaphragmatic breathing, or belly breathing, encourages the diaphragm to descend, which gently massages the pelvic floor, promoting relaxation and reducing hypertonicity often associated with endometriosis pain.
+2025-12-23 11:54:24 [error]: Already bad item: 694aa1e9360194e67e59919d
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e5991a2 Feedback: 5  | Description: Unlike Kegels, which contract the pelvic floor, pelvic floor drops focus on consciously lengthening and releasing these muscles. This is crucial for individuals with endometriosis who often have an overactive or tight pelvic floor.
+Sum of helpfulness: 19
+Cummulative sum of helpfulness: 98
+Total sum of helpfulness: 98
+
+Done in 934.23s.

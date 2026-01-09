@@ -1,0 +1,104 @@
+const patientPayload = {
+    age: 28,
+    bodyMassIndex: 22.5,
+    location: "New York, USA",
+    goals: ["reduce_pain", 'improve_energy'],
+    dietType: ["vegan"],
+    dietaryRestrictions: "No gluten, avoiding dairy products",
+    hasGymAccess: true,
+    budgetLevel: "medium",
+    dayInCycle: 14,
+    cyclePhase: "ovulatory_phase",
+    symptomsOfInterest: ["painful_periods", 'pelvic_pain', 'back_pain'],
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+==== Plan 694570d176965d8f9cf9f9a0 Quality ====
+Tag: [NEW] [MEDIUM] Primitive ID: 693b203932e07e92df83f65c Feedback: 3  | Description: Applying a heating pad to the lower abdomen or back can help relax pelvic muscles, reduce cramping, and alleviate pain. The warmth increases blood flow to the area, which can help to diminish pain signals.
+Tag: [NEW] [GOOD] Primitive ID: 693b203932e07e92df83f6be Feedback: 5  | Description: Gentle yoga, focusing on poses that release pelvic tension and promote relaxation, can help manage endometriosis-related pain. Poses like Child's Pose and Cat-Cow can be particularly beneficial.
+Tag: [NEW] [MEDIUM_BAD] Primitive ID: 693b203932e07e92df83f6dc Feedback: 2  | Description: Applying a heating pad or taking a warm bath can help relax the uterine and abdominal muscles, increase blood flow to the area, and alleviate the cramping and pain common with endometriosis during menstruation.
+Tag: [NEW] [GOOD] Primitive ID: 693b203932e07e92df83f699 Feedback: 5  | Description: Magnesium acts as a natural muscle relaxant by calming uterine muscle contractions. It can help alleviate menstrual cramps, pelvic floor tension, and back pain associated with endometriosis.
+Sum of helpfulness: 15
+Cummulative sum of helpfulness: 15
+
+==== Plan 694570f376965d8f9cf9f9df Quality ====
+Tag: [NEW] [GOOD] Primitive ID: 693b203932e07e92df83f680 Feedback: 5  | Description: Keep a daily log of your pain levels, symptoms, diet, and activities. This data can help you and your healthcare provider identify patterns, understanmon triggers, and make more informed decisions about your management plan.
+Tag: [GOOD] Primitive ID: 693b203932e07e92df83f6be Feedback: 5  | Description: Gentle yoga, focusing on poses that release pelvic tension and promote relaxation, can help manage endometriosis-related pain. Poses like Child's Pose and Cat-Cow can be particularly beneficial.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 693b203932e07e92df83f6b2 Feedback: 4  | Description: PMR is a technique that involves tensing and then relaxing different muscle groups in the body. This practice helps to increase awareness of physical tension and provides a method for consciously releasing it. For endometriosis, this can be particularly helpful for relaxing the pelvic floor and abdominal muscles, reducing pain and promoting overall relaxation.
+Tag: [GOOD] Primitive ID: 693b203932e07e92df83f699 Feedback: 5  | Description: Magnesium acts as a natural muscle relaxant by calming uterine muscle contractions. It can help alleviate menstrual cramps, pelvic floor tension, and back pain associated with endometriosis.
+Sum of helpfulness: 19
+Cummulative sum of helpfulness: 34
+
+
+
+==== Plan 6945711576965d8f9cf9fa1e Quality ====
+Tag: [NEW] [MEDIUM] Primitive ID: 693b203932e07e92df83f674 Feedback: 3  | Description: Use a heating pad, warm water bottle, or take a warm bath for 15-20 minutes to help relax uterine and abdominal muscles, increase blood flow, and alleviate cramping and pelvic pain.
+Tag: [GOOD] Primitive ID: 693b203932e07e92df83f6be Feedback: 5  | Description: Gentle yoga, focusing on poses that release pelvic tension and promote relaxation, can help manage endometriosis-related pain. Poses like Child's Pose and Cat-Cow can be particularly beneficial.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 693b203932e07e92df83f6df Feedback: 4  | Description: Acupressure involves applying firm pressure to specific points on the body. Points like Spleen 6 (SP6) and Large Intestine 4 (LI4) have been traditionally used to alleviate menstrual pain and cramping by influencing energy flow and releasing endorphins.
+Tag: [GOOD] Primitive ID: 693b203932e07e92df83f699 Feedback: 5  | Description: Magnesium acts as a natural muscle relaxant by calming uterine muscle contractions. It can help alleviate menstrual cramps, pelvic floor tension, and back pain associated with endometriosis.
+Sum of helpfulness: 17
+Cummulative sum of helpfulness: 51
+
+
+
+
+
+
+
+
+
+==== Plan 6945713976965d8f9cf9fa5d Quality ====
+Tag: [MEDIUM] Primitive ID: 693b203932e07e92df83f674 Feedback: 3  | Description: Use a heating pad, warm water bottle, or take a warm bath for 15-20 minutes to help relax uterine and abdominal muscles, increase blood flow, and alleviate cramping and pelvic pain.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 693b203932e07e92df83f6cf Feedback: 4  | Description: Focus on relaxing and lengthening the pelvic floor muscles, the opposite of a Kegel. This 'reverse Kegel' or 'pelvic drop' can help release chronic tension in the pelvic floor, which is common with endometriosis-related pain.
+Tag: [MEDIUM_BAD] Primitive ID: 693b203932e07e92df83f6dc Feedback: 2  | Description: Applying a heating pad or taking a warm bath can help relax the uterine and abdominal muscles, increase blood flow to the area, and alleviate the cramping and pain common with endometriosis during menstruation.
+
+2025-12-19 11:38:03 [error]: Already bad item: 693b203932e07e92df83f6dc
+
+Tag: [GOOD] Primitive ID: 693b203932e07e92df83f699 Feedback: 5  | Description: Magnesium acts as a natural muscle relaxant by calming uterine muscle contractions. It can help alleviate menstrual cramps, pelvic floor tension, and back pain associated with endometriosis.
+Sum of helpfulness: 14
+Cummulative sum of helpfulness: 65
+
+
+
+
+==== Plan 6945715a76965d8f9cf9fa9c Quality ====
+Tag: [NEW] [GOOD] Primitive ID: 693b203932e07e92df83f673 Feedback: 5  | Description: Perform daily pelvic floor 'drops' or 'reverse Kegels' to release tension in the pelvic muscles, which are often hypertonic in individuals with endometriosis. This can help alleviate pelvic pain, pain with intercourse, and bladder or bowel symptoms.
+Tag: [GOOD] Primitive ID: 693b203932e07e92df83f6be Feedback: 5  | Description: Gentle yoga, focusing on poses that release pelvic tension and promote relaxation, can help manage endometriosis-related pain. Poses like Child's Pose and Cat-Cow can be particularly beneficial.
+Tag: [MEDIUM_BAD] Primitive ID: 693b203932e07e92df83f6dc Feedback: 2  | Description: Applying a heating pad or taking a warm bath can help relax the uterine and abdominal muscles, increase blood flow to the area, and alleviate the cramping and pain common with endometriosis during menstruation.
+
+2025-12-19 11:38:03 [error]: Already bad item: 693b203932e07e92df83f6dc
+
+Tag: [GOOD] Primitive ID: 693b203932e07e92df83f699 Feedback: 5  | Description: Magnesium acts as a natural muscle relaxant by calming uterine muscle contractions. It can help alleviate menstrual cramps, pelvic floor tension, and back pain associated with endometriosis.
+Sum of helpfulness: 17
+Cummulative sum of helpfulness: 82
+Total sum of helpfulness: 82
+
+
+

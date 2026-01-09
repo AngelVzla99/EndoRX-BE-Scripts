@@ -1,0 +1,55 @@
+---
+alwaysApply: true
+---
+
+
+This is the folder structure that you should follow:
+
+In the src folder you will find all the modules of the system, every module consist of:
+
+
+* MODULE_NAME.dto.ts: In this file we define all the zod schemas (used in the controllers) and types. Here is an example
+
+```
+export const ResponseCreateUserSchema = z.object({
+    id: z.string(),
+    name: z.string(),
+    email: z.string().email(),
+    createdAt: z.date(),
+    updatedAt: z.date(),
+});
+
+export type ResponseCreateUserDto = z.infer<typeof ResponseCreateUserSchema>;
+```
+
+* MODULE_NAME.mapper.ts: A set of functions to map DTOs to entity objects or entity objects to DTOs.
+
+* MODULE_NAME.service.ts: This file is a class. Here should be all the business logic, the service is responsable of exposing logic from the module to other modules, be the only entry point of the repository and user mappers to don't expose all the data stored in the repositories. Here is an example:
+
+```
+public async createUser(dto: CreateUserDto){
+        const userEntity = await this.userRepository.createUser(dto);
+        return mapUserEntityToResponseCreateUserDto(userEntity);
+    }
+```
+
+* MODULE_NAME.model.ts: In this file we define the mogose schema and the model used in this module , in all the models we will use "timestamps: true". Also we define the Entity type. Here is an example
+
+```
+const userSchema = new Schema({
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+},{
+    timestamps: true,
+});
+
+export type UserEntity = InferSchemaType<typeof userSchema>;
+
+export const UserModel = model<UserEntity>('users', userSchema);
+
+* MODULE_NAME.repository.ts: This file is a class that centralize all the functions exposed to access the database. using a mongose model defined in other filer.
+```
+
+* MODULE_NAME.error.ts: (Only create this file when it's need ) This file contain a set of custom erros that extend from src/common/types/error.type.ts 
+
+* MODULE_NAME.constants.ts: (Only create this file when it's need ) Here we store all the internal types, interfaces or enum of the module 

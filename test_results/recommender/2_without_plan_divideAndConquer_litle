@@ -1,0 +1,59 @@
+==== Plan 694ab65ac554a079aaf76618 Quality ====
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e8360194e67e598f98 Feedback: 3  | Description: Applying a heating pad or hot water bottle to the lower abdomen or back can help relax uterine and pelvic muscles, reducing cramping and pain associated with endometriosis. The heat increases blood flow to the area, which can help alleviate discomfort.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e599056 Feedback: 5  | Description: A significant number of individuals with endometriosis report sensitivity to gluten. Gluten may contribute to inflammation and gastrointestinal distress. A trial elimination of gluten can help assess its impact on pain, bloating, and fatigue.
+Tag: [NEW] [MEDIUM_BAD] Primitive ID: 694aa1e9360194e67e599082 Feedback: 2  | Description: Omega-3 fatty acids (EPA and DHA) have potent anti-inflammatory properties. They can help reduce the production of inflammatory prostaglandins, potentially leading to less pain and inflammation from endometriosis lesions.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e599115 Feedback: 5  | Description: Deep diaphragmatic breathing activates the parasympathetic nervous system, promoting a state of calm. This can help to instantly reduce feelings of stress and anxiety, and can also help to manage acute pain episodes by shifting focus and relaxing the pelvic muscles.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e599148 Feedback: 5  | Description: Mindful walking is a low-impact aerobic exercise that can improve cardiovascular health, boost mood through the release of endorphins, and reduce stress. Walking in nature has been shown to have additional mental health benefits. It helps to manage fatigue and pain without over-exerting the body.
+Sum of helpfulness: 20
+Cummulative sum of helpfulness: 20
+
+
+
+
+
+==== Plan 694ab675c554a079aaf76807 Quality ====
+Tag: [MEDIUM] Primitive ID: 694aa1e8360194e67e598f98 Feedback: 3  | Description: Applying a heating pad or hot water bottle to the lower abdomen or back can help relax uterine and pelvic muscles, reducing cramping and pain associated with endometriosis. The heat increases blood flow to the area, which can help alleviate discomfort.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e5990a2 Feedback: 4  | Description: Ginger contains compounds like gingerols that have anti-inflammatory and analgesic properties, making it effective for reducing menstrual pain. It is also well-known for its ability to alleviate nausea, a common symptom for some with endometriosis.
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e5991a2 Feedback: 3  | Description: Unlike Kegels, which contract the pelvic floor, pelvic floor drops focus on consciously lengthening and releasing these muscles. This is crucial for individuals with endometriosis who often have an overactive or tight pelvic floor.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e5991d6 Feedback: 4  | Description: Gentle walking increases blood flow to the pelvic region, which can help to reduce inflammation and pain. It also encourages gentle movement of the hips and pelvis, which can help to release tension in the pelvic floor.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e5991f7 Feedback: 4  | Description: Curcumin, the active compound in turmeric, is a potent anti-inflammatory agent that can help modulate inflammatory pathways associated with endometriosis, potentially reducing pain.
+Sum of helpfulness: 18
+Cummulative sum of helpfulness: 38
+
+
+
+
+
+==== Plan 694ab692c554a079aaf769f6 Quality ====
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e598fa1 Feedback: 5  | Description: Endometriosis can lead to pelvic floor muscle tension (hypertonicity), contributing to pain. Exercises like deep diaphragmatic breathing combined with conscious relaxation of the pelvic floor muscles can alleviate this tension and reduce pain.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e598fb5 Feedback: 4  | Description: Ginger contains gingerol, a compound with potent anti-inflammatory and analgesic properties. Drinking warm ginger tea can help reduce inflammation, alleviate nausea, and soothe menstrual cramps.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e599040 Feedback: 5  | Description: Curcumin, the active compound in turmeric, is a powerful anti-inflammatory agent. It works by inhibiting key inflammatory pathways, which may help to reduce the pain and inflammation associated with endometriosis lesions.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e599056 Feedback: 5  | Description: A significant number of individuals with endometriosis report sensitivity to gluten. Gluten may contribute to inflammation and gastrointestinal distress. A trial elimination of gluten can help assess its impact on pain, bloating, and fatigue.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e5990ff Feedback: 4  | Description: Experiment with different sleep positions to find what is most comfortable for you. Many with endometriosis find relief by sleeping on their side with a pillow between their knees, or on their back with a pillow under their knees to reduce pressure on the pelvis.
+Sum of helpfulness: 23
+Cummulative sum of helpfulness: 61
+
+
+
+
+==== Plan 694ab6b2c554a079aaf76be5 Quality ====
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e599040 Feedback: 5  | Description: Curcumin, the active compound in turmeric, is a powerful anti-inflammatory agent. It works by inhibiting key inflammatory pathways, which may help to reduce the pain and inflammation associated with endometriosis lesions.
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e599043 Feedback: 3  | Description: Ginger contains gingerols and shogaols, compounds with strong anti-inflammatory and analgesic properties. It can help alleviate menstrual pain and is also effective in managing the nausea that can accompany endometriosis flare-ups.
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e5990e5 Feedback: 3  | Description: Gentle stretching can help release muscle tension in the pelvis, back, and hips, which can contribute to pain and discomfort that interfere with sleep. Focus on slow, mindful movements and avoid any stretches that cause pain.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e599157 Feedback: 4  | Description: Chronic pelvic pain often leads to compensatory patterns and muscle tightness in the hips, glutes, and lower back. Gentle, consistent stretching and mobility work can alleviate this tension, improve range of motion, and reduce associated pain. Focus on areas that feel tight, but avoid stretching to the point of pain.
+Tag: [NEW] [BAD] Primitive ID: 694aa1e9360194e67e59919d Feedback: 1  | Description: Diaphragmatic breathing, or belly breathing, encourages the diaphragm to descend, which gently massages the pelvic floor, promoting relaxation and reducing hypertonicity often associated with endometriosis pain.
+Sum of helpfulness: 16
+Cummulative sum of helpfulness: 77
+
+
+
+==== Plan 694ab6cec554a079aaf76dd4 Quality ====
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e599040 Feedback: 5  | Description: Curcumin, the active compound in turmeric, is a powerful anti-inflammatory agent. It works by inhibiting key inflammatory pathways, which may help to reduce the pain and inflammation associated with endometriosis lesions.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e599152 Feedback: 4  | Description: Building overall muscle strength can improve posture, support the core, and increase metabolic health. Focus on compound movements like squats and rows with light weights or resistance bands. This can help reduce back pain and fatigue associated with endometriosis. Avoid heavy lifting that increases intra-abdominal pressure.
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e59915c Feedback: 3  | Description: Restorative yoga uses props like bolsters, blankets, and blocks to completely support the body in gentle, restful poses. This practice is designed to trigger the parasympathetic nervous system ('rest and digest' state), which can help to lower inflammation, reduce stress hormones, and manage chronic pain and fatigue.
+Tag: [BAD] Primitive ID: 694aa1e9360194e67e59919d Feedback: 1  | Description: Diaphragmatic breathing, or belly breathing, encourages the diaphragm to descend, which gently massages the pelvic floor, promoting relaxation and reducing hypertonicity often associated with endometriosis pain.
+2025-12-23 11:35:43 [error]: Already bad item: 694aa1e9360194e67e59919d
+Tag: [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e5991f7 Feedback: 4  | Description: Curcumin, the active compound in turmeric, is a potent anti-inflammatory agent that can help modulate inflammatory pathways associated with endometriosis, potentially reducing pain.
+Sum of helpfulness: 17
+Cummulative sum of helpfulness: 94
+Total sum of helpfulness: 94

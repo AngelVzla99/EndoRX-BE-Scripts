@@ -1,0 +1,54 @@
+==== Plan 694ac05eec1418fde2470d40 Quality ====
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e598fb5 Feedback: 3  | Description: Ginger contains gingerol, a compound with potent anti-inflammatory and analgesic properties. Drinking warm ginger tea can help reduce inflammation, alleviate nausea, and soothe menstrual cramps.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e598fbf Feedback: 5  | Description: Tight clothing, especially around the waist and abdomen, can put pressure on a bloated and sensitive belly, exacerbating pain and discomfort. Wearing loose, soft, and comfortable clothing can prevent this added pressure and improve overall comfort.
+Tag: [NEW] [MEDIUM_BAD] Primitive ID: 694aa1e9360194e67e598fea Feedback: 2  | Description: Prolonged sitting can increase pelvic and back pain. Using a supportive cushion (e.g., a donut or wedge cushion) can help relieve pressure on the pelvic floor, tailbone, and lower back, making sitting more comfortable.
+Sum of helpfulness: 10
+Cummulative sum of helpfulness: 10
+
+
+
+==== Plan 694ac09eec1418fde2470efb Quality ====
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e598fbf Feedback: 5  | Description: Tight clothing, especially around the waist and abdomen, can put pressure on a bloated and sensitive belly, exacerbating pain and discomfort. Wearing loose, soft, and comfortable clothing can prevent this added pressure and improve overall comfort.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e598fd0 Feedback: 5  | Description: Pain and inflammation can disrupt sleep, and poor sleep can increase pain perception and fatigue. Prioritizing a consistent sleep schedule and allowing for rest during the day can help manage the energy drain from endometriosis and improve pain coping.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e59903d Feedback: 5  | Description: Endometriosis is associated with high levels of oxidative stress. Antioxidants, abundant in berries, leafy greens, and colorful vegetables, help neutralize free radicals, thereby reducing cellular damage and inflammation in the pelvic cavity.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e5991fe Feedback: 4  | Description: Endometriosis can lead to hypertonic (overly tight) pelvic floor muscles. Specific exercises focused on relaxation, such as diaphragmatic breathing and reverse Kegels, can alleviate deep pelvic pain and dyspareunia.
+Tag: [NEW] [MEDIUM] Primitive ID: 694aa1e9360194e67e59920f Feedback: 3  | Description: Ginger is a natural anti-inflammatory and can help with nausea. Chamomile has muscle-relaxing and calming properties. Both can be beneficial for managing menstrual cramps, bloating, and stress.
+Sum of helpfulness: 22
+Cummulative sum of helpfulness: 32
+
+
+
+==== Plan 694ac0caec1418fde24710de Quality ====
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e598fa1 Feedback: 4  | Description: Endometriosis can lead to pelvic floor muscle tension (hypertonicity), contributing to pain. Exercises like deep diaphragmatic breathing combined with conscious relaxation of the pelvic floor muscles can alleviate this tension and reduce pain.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e598faa Feedback: 4  | Description: Deep belly breathing activates the parasympathetic nervous system, promoting a state of 'rest and digest.' This can lower stress, reduce the perception of pain, and gently massage the internal organs, which may ease bloating and discomfort.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e598fbf Feedback: 5  | Description: Tight clothing, especially around the waist and abdomen, can put pressure on a bloated and sensitive belly, exacerbating pain and discomfort. Wearing loose, soft, and comfortable clothing can prevent this added pressure and improve overall comfort.
+Tag: [NEW] [GOOD] Primitive ID: 694aa1e9360194e67e599047 Feedback: 5  | Description: Magnesium plays a vital role in muscle relaxation. For individuals with endometriosis, it can help to ease uterine cramping and pelvic muscle tension. Foods rich in magnesium include dark leafy greens, nuts, seeds, and dark chocolate.
+Sum of helpfulness: 18
+Cummulative sum of helpfulness: 50
+
+
+
+==== Plan 694ac0feec1418fde24712ab Quality ====
+Tag: [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e598fa1 Feedback: 4  | Description: Endometriosis can lead to pelvic floor muscle tension (hypertonicity), contributing to pain. Exercises like deep diaphragmatic breathing combined with conscious relaxation of the pelvic floor muscles can alleviate this tension and reduce pain.
+Tag: [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e598faa Feedback: 4  | Description: Deep belly breathing activates the parasympathetic nervous system, promoting a state of 'rest and digest.' This can lower stress, reduce the perception of pain, and gently massage the internal organs, which may ease bloating and discomfort.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e598fbf Feedback: 5  | Description: Tight clothing, especially around the waist and abdomen, can put pressure on a bloated and sensitive belly, exacerbating pain and discomfort. Wearing loose, soft, and comfortable clothing can prevent this added pressure and improve overall comfort.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e598fd0 Feedback: 5  | Description: Pain and inflammation can disrupt sleep, and poor sleep can increase pain perception and fatigue. Prioritizing a consistent sleep schedule and allowing for rest during the day can help manage the energy drain from endometriosis and improve pain coping.
+Tag: [NEW] [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e599037 Feedback: 4  | Description: Omega-3 fatty acids, found in fatty fish, flaxseeds, and walnuts, have potent anti-inflammatory properties. They can help reduce the production of inflammatory prostaglandins, which are often elevated in individuals with endometriosis and contribute to pelvic pain.
+Sum of helpfulness: 22
+Cummulative sum of helpfulness: 72
+
+
+
+
+==== Plan 694ac127ec1418fde247148e Quality ====
+Tag: [MEDIUM_GOOD] Primitive ID: 694aa1e9360194e67e598faa Feedback: 4  | Description: Deep belly breathing activates the parasympathetic nervous system, promoting a state of 'rest and digest.' This can lower stress, reduce the perception of pain, and gently massage the internal organs, which may ease bloating and discomfort.
+Tag: [MEDIUM] Primitive ID: 694aa1e9360194e67e598fb5 Feedback: 3  | Description: Ginger contains gingerol, a compound with potent anti-inflammatory and analgesic properties. Drinking warm ginger tea can help reduce inflammation, alleviate nausea, and soothe menstrual cramps.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e598fbf Feedback: 5  | Description: Tight clothing, especially around the waist and abdomen, can put pressure on a bloated and sensitive belly, exacerbating pain and discomfort. Wearing loose, soft, and comfortable clothing can prevent this added pressure and improve overall comfort.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e598fd0 Feedback: 5  | Description: Pain and inflammation can disrupt sleep, and poor sleep can increase pain perception and fatigue. Prioritizing a consistent sleep schedule and allowing for rest during the day can help manage the energy drain from endometriosis and improve pain coping.
+Tag: [GOOD] Primitive ID: 694aa1e9360194e67e59903d Feedback: 5  | Description: Endometriosis is associated with high levels of oxidative stress. Antioxidants, abundant in berries, leafy greens, and colorful vegetables, help neutralize free radicals, thereby reducing cellular damage and inflammation in the pelvic cavity.
+Sum of helpfulness: 22
+Cummulative sum of helpfulness: 94
+Total sum of helpfulness: 94
+
+
+Done in 259.34s.

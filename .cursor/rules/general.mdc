@@ -1,0 +1,10 @@
+---
+alwaysApply: true
+---
+
+* Only log message when you are asked to
+* avoid writing comments over the functions
+* If you need to log somethig use src/clients/logger.client.ts 
+* If you need to create any config value ( constant or comming from env variables ). You should put it on src/config/config.service.ts
+* Every time that you need to get the time use src/clients/time.client.ts 
+* Always use yarn

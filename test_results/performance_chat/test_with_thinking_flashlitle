@@ -1,0 +1,104 @@
+npm run dev
+
+> endorx-scripts@1.0.0 dev
+> tsx src/index.ts
+
+2025-12-05 13:06:01 [info]: MongoDB connected successfully via Mongoose
+2025-12-05 13:06:05 [info]: MongoDB client connected successfully
+2025-12-05 13:06:05 [info]: [BACKEND] Making GET request {"url":"http://localhost:3000/api/chat-message/history","method":"get"}
+2025-12-05 13:06:05 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message/history","finalUrl":"http://localhost:3000/api/chat-message/history","status":200,"redirected":false}
+2025-12-05 13:06:05 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-05 13:06:09 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-05 13:06:09 [info]: Hello! I can offer you some general information about managing endometriosis through lifestyle, nutrition, and movement, based on the information available to me. I can't provide medical advice, but I can share some general wellness strategies that may be helpful.
+
+Given your goals of reducing pain, improving sleep, and managing stress, and considering your dietary restrictions and gym access, we can explore some relevant topics. Would you like to start with a specific area, or would you like a general overview?
+
+2025-12-05 13:06:09 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-05 13:06:26 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-05 13:06:26 [info]: Based on your provided information, here's what I know about you:
+
+*   **Age:** 28 years old
+*   **Location:** New York, USA
+*   **Goals:** Reduce pain, improve sleep, and manage stress.
+*   **Symptoms of Interest:** Pain, bloating, and mood changes.
+*   **Dietary Restrictions:** No gluten and avoiding dairy products.
+*   **Gym Access:** Yes
+*   **Budget Level:** Medium
+*   **Day in Cycle:** 14 (Ovulatory Phase)
+*   **Body Mass Index:** 22.5
+*   **Diet Type:** Vegetarian, Flexitarian
+
+I also have access to some clinical documentation of patients with endometriosis, which I can use to provide additional context.
+
+2025-12-05 13:06:26 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-05 13:06:30 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-05 13:06:30 [info]: Based on the information I have, endometriosis is a chronic inflammatory disease where tissue similar to the uterine lining grows outside the uterus. This can lead to a variety of symptoms, including chronic pelvic pain, painful periods (dysmenorrhea), pain during intercourse (dyspareunia), and issues with bowel movements (dyschezia). It can also impact fertility.
+
+The severity of symptoms can vary greatly from person to person. Some individuals experience mild symptoms, while others have debilitating pain that significantly affects their quality of life.
+
+The exact causes of endometriosis are not fully understood, but several factors are thought to be involved, including genetics, hormonal influences, and lifestyle factors.
+
+I also have access to information about how some individuals manage their symptoms through lifestyle changes, such as dietary modifications, exercise, and stress management techniques.
+
+2025-12-05 13:06:30 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-05 13:06:33 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-05 13:06:33 [info]: The information I have indicates that treatments for endometriosis can include surgical removal and pharmacologic suppression of lesions. Pharmacologic management often involves analgesics and therapies to lower estrogen levels, as estrogen is a key driver of endometrial growth and inflammation. Oral contraceptives, progestins, and, less often, androgens are used.
+
+I am not able to provide medical advice or recommend specific treatments.
+
+2025-12-05 13:06:33 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-05 13:06:36 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-05 13:06:36 [info]: Based on the information I have, the exact causes of endometriosis are not fully understood, which makes prevention strategies complex. However, some research suggests that certain lifestyle factors and genetic predispositions may play a role.
+
+One document mentions that daughters of women with endometriosis might deserve specific attention, especially when maternal endometriosis is severe, suggesting a possible genetic component.
+
+While there's no guaranteed way to prevent endometriosis, some general wellness strategies might be relevant. The text mentions that recommending fruits and vegetables as antioxidants seems logical and free of risk.
+
+2025-12-05 13:06:36 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-05 13:06:40 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-05 13:06:40 [info]: The information I have suggests that the causes of endometriosis are not fully understood. Several theories have been proposed, but none fully explain the disease. These include:
+
+*   **Retrograde menstruation:** This is one of the most widely discussed theories, where menstrual blood containing endometrial cells flows back through the fallopian tubes and into the pelvic cavity.
+*   **Coelomic metaplasia:** This theory suggests that cells in the abdomen can transform into endometrial-like cells.
+*   **Lymphatic and vascular metastasis:** This proposes that endometrial cells can spread through the lymphatic system or blood vessels.
+
+However, these theories alone do not explain all aspects of endometriosis. Other factors are believed to be involved, including:
+
+*   **Altered immunity:** The immune system may not be effectively clearing endometrial cells outside the uterus.
+*   **Hormonal influences:** Hormones, particularly estrogen, play a significant role in the growth and maintenance of endometrial tissue.
+*   **Genetic factors:** There may be a genetic predisposition to developing endometriosis.
+*   **Environmental and lifestyle factors:** These may also contribute to the development and progression of the disease.
+
+It's important to note that the exact interplay of these factors is still being researched.
+
+2025-12-05 13:06:40 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-05 13:06:43 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-05 13:06:43 [info]: Based on the information I have, the symptoms of endometriosis can vary widely, and their severity doesn't always correlate with the extent of the disease. Common symptoms include:
+
+*   **Chronic pelvic pain:** This is a hallmark symptom and can range from mild to debilitating.
+*   **Dysmenorrhea:** Painful menstrual periods.
+*   **Acyclic pelvic pain:** Pelvic pain that occurs outside of the menstrual cycle.
+*   **Dyspareunia:** Pain during sexual intercourse.
+*   **Dyschezia:** Painful bowel movements.
+*   **Dysuria:** Painful urination.
+*   **Infertility:** Difficulty conceiving.
+
+Other symptoms can include:
+
+*   Bloating
+*   Fatigue
+*   Mood changes
+
+The specific symptoms and their intensity can vary depending on the location and extent of the endometrial-like tissue.
+
+2025-12-05 13:06:43 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-05 13:06:45 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-05 13:06:45 [info]: The information I have suggests a complex relationship between endometriosis and stress. One document indicates that stress may be a factor in the experience of endometriosis.
+
+Another document explores the neuroendocrine and stress-related aspects of endometriosis. It also mentions that stress can be a consequence of endometriosis.
+
+It's important to note that I am not a medical professional and cannot provide medical advice.
+
+2025-12-05 13:06:45 [info]: Response time statistics: {"averageResponseTime":5000.75,"minResponseTime":2569,"maxResponseTime":16923,"medianResponseTime":3150}
+2025-12-05 13:06:45 [info]: MongoDB client disconnected
+2025-12-05 13:06:45 [info]: MongoDB disconnected

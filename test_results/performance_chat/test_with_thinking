@@ -1,0 +1,171 @@
+EndoRX-Scripts npm run dev
+
+> endorx-scripts@1.0.0 dev
+> tsx src/index.ts
+
+2025-12-04 13:19:00 [info]: MongoDB connected successfully via Mongoose
+2025-12-04 13:19:01 [info]: MongoDB client connected successfully
+2025-12-04 13:19:01 [info]: [BACKEND] Making GET request {"url":"http://localhost:3000/api/chat-message/history","method":"get"}
+2025-12-04 13:19:01 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message/history","finalUrl":"http://localhost:3000/api/chat-message/history","status":200,"redirected":false}
+2025-12-04 13:19:01 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:19:14 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:19:14 [info]: Hello there! I'm here to provide you with information and insights on general wellness, fitness, and holistic health, particularly as they relate to managing endometriosis through lifestyle, nutrition, and movement.
+
+Based on your profile, I understand you're 28, located in New York, and looking to reduce pain, improve sleep, and manage stress, especially concerning symptoms like pain, bloating, and mood changes. You also follow a gluten-free and dairy-free diet and have gym access.
+
+I can help by discussing general wellness strategies that often include:
+*   **Nutritional concepts:** Exploring dietary approaches that some individuals find supportive, keeping in mind your gluten-free and dairy-free preferences.
+*   **Gentle movement and exercise:** Discussing types of physical activity that may be beneficial for managing symptoms.
+*   **Stress management techniques:** Sharing information on various methods to help reduce stress.
+*   **Sleep hygiene:** Providing insights into improving sleep quality.
+
+It's important to remember that I am not a medical professional. I cannot provide medical advice, diagnose conditions, or recommend specific treatments. My role is to offer supportive and educational information based on general wellness principles.
+
+I can also draw from common experiences and concerns related to endometriosis, such as those mentioned in the clinical documentation of other patients, like managing chronic pain, post-operative recovery, and the impact on quality of life, to help frame the information I provide.
+
+What specific areas are you most interested in exploring first?
+2025-12-04 13:19:14 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:19:21 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:19:21 [info]: Based on the information in your profile, I know the following about you:
+
+*   **Age:** 28
+*   **Location:** New York, USA
+*   **Primary Goals:** Reduce pain, improve sleep, and manage stress.
+*   **Symptoms of Interest:** Pain, bloating, and mood changes.
+*   **Dietary Preferences:** You follow a gluten-free diet and avoid dairy products.
+*   **Fitness Access:** You have access to a gym.
+*   **Budget Level:** Medium.
+*   **Current Cycle Phase:** You are on day 14 of your cycle, which is your Ovulatory Phase.
+*   **Body Mass Index (BMI):** 22.5
+*   **Diet Type:** Vegetarian, Flexitarian
+
+This information helps me understand your current situation and what you're hoping to achieve, so I can tailor the general wellness information I provide to be as relevant as possible to your interests.
+2025-12-04 13:19:21 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:19:38 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:19:38 [info]: Based on the information I have, endometriosis is described as an inflammatory, estrogen-dependent disease. It's characterized by the presence of endometrial-like tissue growing outside of the uterus. While it's usually found within the abdominal cavity, it can, in rare cases, appear in other areas like the lungs, brain, or even the eye.
+
+Within the pelvic cavity, these lesions can be found on the peritoneum, within the ovaries (known as endometriomas), around the uterus, and can also affect the urinary tract, bowel, and vagina. Some definitions also consider adenomyosis, which involves similar lesions within the myometrium, as a separate but related condition.
+
+The scientific papers mention three recognized types of endometriosis lesions:
+*   **Peritoneal endometriosis**
+*   **Ovarian endometriosis (endometrioma)**
+*   **Deep endometriosis (DE)**
+
+Endometriosis is associated with a range of symptoms, which can vary in severity from mild to debilitating. These commonly include:
+*   Chronic pelvic pain (which can manifest as painful periods, non-cyclical pelvic pain, painful intercourse, painful bowel movements, and painful urination).
+*   Infertility, affecting approximately 30–50% of individuals with the condition.
+
+It's understood to be a chronic inflammatory disease that significantly impacts the quality of life for many individuals. While theories like retrograde menstruation are discussed, it's also recognized that other factors, such as altered immunity, hormonal influences, and genetic, environmental, and lifestyle factors, play a role in its development and persistence.
+
+The clinical documentation I have also illustrates the profound and varied impact endometriosis can have on individuals' lives, often involving a long journey to diagnosis, significant chronic pain that affects daily activities, and the need for comprehensive management strategies. For example, some individuals experience severe menstrual pain, pain with bowel movements, and even pain that limits physical activities like yoga, as well as challenges with fertility and managing symptoms through strict dietary modifications.
+
+It's important to remember that this information is for educational purposes and provides a general overview of what endometriosis is. I am not a medical professional and cannot offer medical advice or diagnosis.
+2025-12-04 13:19:38 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:19:55 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:19:55 [info]: Managing endometriosis often involves a multi-faceted approach, and the strategies can vary significantly depending on the individual's symptoms, severity, and personal goals. Based on the information I have, common approaches to managing endometriosis include:
+
+**1. Surgical Interventions:**
+*   **Removal or Resection of Lesions:** Surgical removal or resection of endometrial lesions is a common treatment. This can include techniques like laparoscopic surgery with excision or ablation.
+*   **Addressing Specific Issues:** In some cases, surgery might involve more specific procedures, such as shaving a bowel nodule if endometriosis affects the bowel, or even considering Botox injections into pelvic floor muscles for pain management.
+*   **Recurrence:** It's noted that while surgery can be successful, symptoms may sometimes persist or recur.
+
+**2. Pharmacological Management:**
+*   **Hormonal Therapies:** A primary goal of pharmacological management is often to lower endogenous estrogen, as estradiol is considered a key driver of endometrial growth and contributes to inflammation and pain.
+    *   **Oral Contraceptives:** These are frequently used, often continuously, to suppress menstrual cycles and reduce pain.
+    *   **Progestins:** Progesterone-only pills are another hormonal option.
+    *   **GnRH Agonists (e.g., Lupron):** These can effectively eliminate pain by inducing a temporary menopause-like state, though they can have side effects such as weight changes.
+    *   **Hormonal IUDs (e.g., Mirena, Kyleena):** These can be recommended to reduce menstrual bleeding and pain.
+*   **Pain Management:**
+    *   **Analgesics:** Over-the-counter pain relievers like NSAIDs (e.g., Advil, Tylenol, Motrin) are often used for menstrual cramps and other pain.
+    *   **Compounded Suppositories:** Some individuals may be prescribed compounded suppositories containing muscle relaxants, anti-inflammatories, and local anesthetics for pelvic relaxation and pain management.
+
+**3. Lifestyle and Holistic Strategies:**
+The clinical documentation highlights that individuals often explore various lifestyle modifications to help manage their symptoms. These can include:
+*   **Dietary Changes:** Some individuals adopt specific diets, such as gluten-free or dairy-free approaches, or focus on anti-inflammatory foods.
+*   **Supplements:** The use of various supplements is also mentioned as a personal strategy.
+*   **Regular Exercise:** Engaging in regular physical activity is a common approach to overall wellness and symptom management.
+*   **Castor Oil Packs:** These are sometimes used as a complementary therapy.
+*   **Pelvic Physical Therapy:** This can be recommended both before and after surgical interventions to help with pelvic relaxation and pain management.
+
+**4. Other Considerations:**
+*   **Fertility Preservation:** For individuals with endometriosis who wish to preserve fertility, treatment plans often take this into account, including discussions about options like egg freezing.
+*   **Patient Education:** Understanding the extent of endometriosis, its impact, and the benefits and risks of proposed interventions is a crucial part of the management process.
+
+It's important to remember that these are general strategies, and the specific treatment plan for endometriosis is always determined by a medical professional based on an individual's unique situation. I am not a medical professional and cannot provide medical advice or recommendations.
+2025-12-04 13:19:55 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:20:05 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:20:05 [info]: Based on the information I have, the concept of preventing endometriosis is still an area of ongoing understanding and research.
+
+The scientific literature suggests that viewing endometriosis as a consequence of genetic or epigenetic incidents can shift the perspective on prevention. This implies that there might be underlying biological factors at play.
+
+Specifically, the documents mention a few points related to prevention, though some are presented as logical suggestions rather than proven strategies:
+
+*   **Genetic Predisposition:** Daughters of women with endometriosis, especially if the maternal endometriosis is severe, might warrant specific attention. This hints at a potential genetic component or predisposition that could be considered in future preventive strategies.
+*   **Dietary Considerations:** Recommending fruits and vegetables as antioxidants is mentioned as a logical and risk-free suggestion. The idea here is that antioxidants might help reduce oxidative stress, which could play a role in the development or progression of the condition.
+*   **Vaginal Microbiome:** The importance of the vaginal microbiome is highlighted, with a suggestion for strict therapy and follow-up for infections. This indicates that maintaining a healthy microbial balance might be a factor in prevention or management.
+*   **Retrograde Menstruation:** A reduction in retrograde menstruation is noted as something that would decrease peritoneal oxidative stress. However, the text also states that medical treatment to abolish menstruation for this purpose is considered too invasive to be recommended without trial evidence.
+
+It's important to understand that these are areas of consideration and ongoing study. The information emphasizes that some of these ideas, while logical, are not yet definitively proven as preventive measures.
+
+As always, I am not a medical professional, and this information is for educational purposes only. Any concerns about endometriosis or its prevention should be discussed with a qualified healthcare provider.
+2025-12-04 13:20:05 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:20:15 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:20:15 [info]: Based on the information I have, the causes of endometriosis are understood to be complex and multi-factorial, with several theories and contributing factors being explored.
+
+Here's what the documents suggest:
+
+*   **Postulated Theories:** Several theories have been put forward to explain the formation of endometriotic tissue. These include:
+    *   **Retrograde menstruation:** This theory suggests that menstrual blood containing endometrial cells flows backward through the fallopian tubes and implants on pelvic organs.
+    *   **Coelomic metaplasia:** This theory proposes that cells lining the pelvic organs can transform into endometrial-like cells.
+    *   **Lymphatic and vascular metastasis:** This theory suggests that endometrial cells can spread through the lymphatic system or bloodstream to distant sites.
+    However, the documents also state that "these theories alone do not explain all the epidemiological/pathophysiological features of the disease."
+
+*   **Other Contributing Factors:** Beyond these primary theories, other elements are believed to play a significant role in the development and persistence of endometriosis:
+    *   **Altered immunity:** Changes in the immune system are thought to be involved.
+    *   **Hormonal influences:** Hormones, particularly estrogen, are known to influence the growth and maintenance of endometriotic lesions.
+    *   **Genetic factors:** There is evidence suggesting a genetic predisposition. For instance, the clinical documentation of one patient mentions a family history of endometriosis (paternal grandmother), which aligns with this idea. The "genetic/epigenetic theory" is also highlighted in one of the scientific papers.
+    *   **Environmental factors:** Certain environmental elements may also contribute.
+    *   **Lifestyle factors:** Lifestyle choices are also considered to play a role.
+
+In essence, endometriosis is viewed as a chronic inflammatory disease where a combination of these factors contributes to the formation and maintenance of endometriotic lesions.
+
+It's important to remember that I am not a medical professional, and this information is for educational purposes only. For a comprehensive understanding of the causes and your specific situation, consulting with a healthcare provider is always recommended.
+2025-12-04 13:20:15 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:20:35 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:20:35 [info]: Based on the information I have, endometriosis is associated with a range of symptoms that can vary significantly in severity from mild to debilitating. These symptoms often have a strong impact on an individual's quality of life.
+
+Common symptoms mentioned in the scientific literature and illustrated in the clinical documentation include:
+
+*   **Chronic Pelvic Pain:** This is a hallmark symptom and can manifest in several ways:
+    *   **Dysmenorrhea:** Severe and painful menstrual periods. This pain can occur before, during, and even after bleeding has stopped.
+    *   **Acyclic Pelvic Pain:** Pelvic pain that occurs outside of the menstrual period, sometimes extending throughout the entire month.
+    *   **Dyspareunia:** Pain during sexual intercourse, which can be deep or localized.
+*   **Pain Related to Bodily Functions:**
+    *   **Dyschezia:** Painful bowel movements, sometimes described as a stabbing sensation in the rectum, especially around the time of menstruation.
+    *   **Dysuria:** Painful urination.
+    *   **Bowel Difficulties:** General difficulty with bowel movements.
+    *   **Urinary Frequency and Nocturia:** Increased need to urinate frequently, including waking up at night to urinate.
+*   **Other Pain Manifestations:**
+    *   "Knife-like" pain from the vagina to the navel, particularly during ovulation, which can be incapacitating.
+    *   Anal pain.
+    *   Chest pain in the lower rib area (though less common, it has been reported).
+*   **Infertility:** Endometriosis is a significant factor in infertility, affecting approximately 30–50% of individuals with the condition.
+
+The clinical documentation further highlights how these symptoms can severely impact daily life, making it difficult to manage work, engage in physical activities, and affecting overall well-being. Individuals often report that the pain can be unpredictable and persistent.
+
+It's important to remember that I am not a medical professional and cannot provide medical advice or diagnosis. This information is for educational purposes only to help you understand the general characteristics of endometriosis symptoms. If you have concerns about your health, please consult with a qualified healthcare provider.
+2025-12-04 13:20:35 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:20:51 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:20:51 [info]: The relationship between endometriosis and stress is an area of interest and research, and the information I have suggests a complex interplay between the two.
+
+Here's what the documents indicate:
+
+*   **Bidirectional Relationship:** One of the scientific papers directly poses the question, "Is stress a cause or a consequence of endometriosis?" This highlights that researchers are exploring whether stress can contribute to the development or worsening of endometriosis, or if living with endometriosis and its symptoms (like chronic pain) can lead to increased stress. It suggests that the relationship might be bidirectional.
+*   **Neuroendocrine and Stress-Related Aspects:** The documents mention "Neuroendocrine and stress-related aspects of endometriosis," indicating that the body's stress response system and its hormonal regulation may be involved in the condition.
+*   **Impact on Mental Health and Quality of Life:** Endometriosis is known to impact quality of life and mental health. Chronic pain, a common symptom of endometriosis, can significantly contribute to psychological distress, which often includes stress.
+*   **Patient Experience:** The clinical documentation of patients with endometriosis also reflects this connection. For example, one patient reported that "Stress worsens nausea," indicating a direct impact of stress on their endometriosis-related symptoms.
+
+In summary, while the exact nature of the relationship is still being investigated, it's understood that stress can be both a factor that might influence endometriosis and a significant consequence of living with the condition. Managing stress is often considered an important aspect of overall well-being for individuals with endometriosis.
+2025-12-04 13:20:51 [info]: Response time statistics: {"averageResponseTime":13719.5,"minResponseTime":6604,"maxResponseTime":19718,"medianResponseTime":10338}
+2025-12-04 13:20:51 [info]: MongoDB client disconnected
+2025-12-04 13:20:51 [info]: MongoDB disconnected

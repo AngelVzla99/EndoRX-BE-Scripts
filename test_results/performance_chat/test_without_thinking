@@ -1,0 +1,52 @@
+➜  EndoRX-Scripts npm run dev
+
+> endorx-scripts@1.0.0 dev
+> tsx src/index.ts
+
+2025-12-04 13:12:59 [info]: MongoDB connected successfully via Mongoose
+2025-12-04 13:12:59 [info]: MongoDB client connected successfully
+2025-12-04 13:13:00 [info]: [BACKEND] Making GET request {"url":"http://localhost:3000/api/chat-message/history","method":"get"}
+2025-12-04 13:13:01 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message/history","finalUrl":"http://localhost:3000/api/chat-message/history","status":200,"redirected":false}
+2025-12-04 13:13:01 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:13:16 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:13:16 [info]: Hello! I'm here to provide you with information and support regarding general wellness, fitness, and holistic health, especially as it relates to managing endometriosis through lifestyle, nutrition, and movement.
+
+Based on your profile, you're looking to reduce pain, improve sleep, and manage stress. You're also interested in understanding more about pain, bloating, and mood changes, and you follow a vegetarian/flexitarian diet, avoiding gluten and dairy.
+
+I can share insights from relevant documents on topics like:
+*   **Gentle movement and exercise:** What types of physical activity might be supportive.
+*   **Stress management techniques:** Approaches that could help with stress reduction.
+*   **Sleep hygiene:** Tips for improving sleep quality.
+*   **Nutritional considerations:** General concepts related to diet that may be relevant for individuals with endometriosis, keeping in mind your dietary preferences.
+
+It's important to remember that I am not a medical professional. I cannot provide medical advice, diagnose conditions, or recommend specific treatments. My goal is to offer educational information to help you explore general wellness strategies.
+
+What specific areas are you most interested in discussing today?
+2025-12-04 13:13:16 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:13:20 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:13:20 [info]: I'm not able to provide medical diagnoses. For concerns about your health or symptoms, please consult with a qualified healthcare provider who can properly evaluate your situation.
+2025-12-04 13:13:20 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:13:46 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:13:46 [info]: I'm not able to provide medical diagnoses. For concerns about your health or symptoms, please consult with a qualified healthcare provider who can properly evaluate your situation.
+2025-12-04 13:13:46 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:13:49 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:13:49 [info]: I'm not able to provide medical diagnoses. For concerns about your health or symptoms, please consult with a qualified healthcare provider who can properly evaluate your situation.
+2025-12-04 13:13:49 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:13:52 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:13:52 [info]: I'm not able to provide medical diagnoses. For concerns about your health or symptoms, please consult with a qualified healthcare provider who can properly evaluate your situation.
+2025-12-04 13:13:52 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:14:05 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:14:05 [info]: I'm not able to provide medical diagnoses. For concerns about your health or symptoms, please consult with a qualified healthcare provider who can properly evaluate your situation.
+2025-12-04 13:14:05 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:14:08 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:14:08 [info]: I'm not able to provide medical diagnoses. For concerns about your health or symptoms, please consult with a qualified healthcare provider who can properly evaluate your situation.
+2025-12-04 13:14:08 [info]: [BACKEND] Making POST request {"url":"http://localhost:3000/api/chat-message","method":"post"}
+2025-12-04 13:14:11 [info]: [BACKEND] Request successful {"url":"http://localhost:3000/api/chat-message","finalUrl":"http://localhost:3000/api/chat-message","status":200,"redirected":false}
+2025-12-04 13:14:11 [info]: Some research suggests a potential relationship between stress and endometriosis. For instance, one paper from 2020, "Is stress a cause or a consequence of endometriosis?", indicates that this relationship is an area of ongoing study. Other documents also mention neuroendocrine and stress-related aspects of endometriosis, and the impact of endometriosis on quality of life and mental health, where pelvic pain can play a significant role.
+
+From the audio scribes, one patient noted that stress worsened her nausea. This highlights how stress can impact the experience of symptoms for individuals with endometriosis.
+
+While these documents point to a connection, they don't definitively state whether stress causes endometriosis or is a result of it, but rather suggest an interplay. Managing stress is often considered a supportive strategy for overall well-being, which can be beneficial for individuals managing chronic conditions.
+2025-12-04 13:14:11 [info]: Response time statistics: {"averageResponseTime":8810.625,"minResponseTime":2604,"maxResponseTime":25854,"medianResponseTime":2604}
+2025-12-04 13:14:12 [info]: MongoDB client disconnected
+2025-12-04 13:14:12 [info]: MongoDB disconnected
