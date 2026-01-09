@@ -6,7 +6,7 @@ A TypeScript project with ESM support.
 
 1. Install dependencies:
 ```bash
-npm install
+yarn install
 ```
 
 2. Create a `.env` file based on `.env.example`:
@@ -20,7 +20,7 @@ cp .env.example .env
 
 Run the project in development mode (with hot reload):
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Build
