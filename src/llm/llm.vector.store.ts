@@ -4,9 +4,9 @@ import {
 } from "@langchain/mongodb";
 import type { Document } from "@langchain/core/documents";
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-import { ConfigService } from "../config/config.service";
-import { GeminiProvider } from "./gemini.provider";
-import { Config } from "../config/config.types";
+import { ConfigService } from "../config/config.service.js";
+import { GeminiProvider } from "./gemini.provider.js";
+import { Config } from "../config/config.types.js";
 import { VertexAIEmbeddings } from "@langchain/google-vertexai";
 
 export class LangchainVectorStore {

@@ -1,4 +1,4 @@
-import { PatientProfileDto } from "../backend_client/backend_client";
+import { PatientProfileDto } from "../backend_client/backend_client.js";
 
 export interface ExtractorTestCase {
     title: string;

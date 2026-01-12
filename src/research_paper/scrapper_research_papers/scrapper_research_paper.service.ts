@@ -1,14 +1,14 @@
 import { Types } from "mongoose";
-import { LoggerClient } from "../../clients/logger.client";
-import { PaperBodyWithIdsDto } from "../../scrappers/pubmed/pubmed.dto";
-import { mapPubMedPaperDtoToCreateResearchPaper, mapPubMedPaperToCreateResearchPaper } from "../../scrappers/pubmed/pubmed.mapper";
-import { PubMedService } from "../../scrappers/pubmed/pubmed.service";
-import { SemanticScholarService } from "../../scrappers/semantic_scholar/semantic-scholar.service";
-import { CreateResearchPaperDto, ExternalIdsDto, ResponseResearchPaperDto } from "../research_paper.dto";
-import { ResearchPaperService } from "../research_paper.service";
-import { mapHybridScrapperToCreateResearchPaperDto, mapPubMedPaperDtoToCreateResearchPaperDto, mapSemanticScholarPaperDtoToCreateResearchPaperDto } from "./scrapper_research_paper.mapper";
-import { LangchainVectorStore } from "../../llm/llm.vector.store";
-import { getDbConfigForResearchPaperVectorSearch, ResearchPaperEmbeddingsService } from "../research_paper_embeddings/research_paper_embeddings.service";
+import { LoggerClient } from "../../clients/logger.client.js";
+import { PaperBodyWithIdsDto } from "../../scrappers/pubmed/pubmed.dto.js";
+import { mapPubMedPaperDtoToCreateResearchPaper, mapPubMedPaperToCreateResearchPaper } from "../../scrappers/pubmed/pubmed.mapper.js";
+import { PubMedService } from "../../scrappers/pubmed/pubmed.service.js";
+import { SemanticScholarService } from "../../scrappers/semantic_scholar/semantic-scholar.service.js";
+import { CreateResearchPaperDto, ExternalIdsDto, ResponseResearchPaperDto } from "../research_paper.dto.js";
+import { ResearchPaperService } from "../research_paper.service.js";
+import { mapHybridScrapperToCreateResearchPaperDto, mapPubMedPaperDtoToCreateResearchPaperDto, mapSemanticScholarPaperDtoToCreateResearchPaperDto } from "./scrapper_research_paper.mapper.js";
+import { LangchainVectorStore } from "../../llm/llm.vector.store.js";
+import { getDbConfigForResearchPaperVectorSearch, ResearchPaperEmbeddingsService } from "../research_paper_embeddings/research_paper_embeddings.service.js";
 
 export class ScrapperResearchPaperService {
   keyWordsFilter = [

@@ -1,11 +1,11 @@
-import { BackendClient } from "./backend_client/backend_client";
-import { LoggerClient } from "../clients/logger.client";
-import { LLMService } from "../llm/llm.service";
-import { PlanPrimitiveService } from "../plan-primitives/plan-primitives.service";
-import { GetDuplicatedDto, PrimitiveDto } from "../llm/llm.dto";
-import { Auth0Client } from "../auth0/auth0.client";
-import { PlanningTestService } from "./planning_test/planning_test.service";
-import { ExtractorTest } from "./extractor_test/extractor_test";
+import { BackendClient } from "./backend_client/backend_client.js";
+import { LoggerClient } from "../clients/logger.client.js";
+import { LLMService } from "../llm/llm.service.js";
+import { PlanPrimitiveService } from "../plan-primitives/plan-primitives.service.js";
+import { GetDuplicatedDto, PrimitiveDto } from "../llm/llm.dto.js";
+import { Auth0Client } from "../auth0/auth0.client.js";
+import { PlanningTestService } from "./planning_test/planning_test.service.js";
+import { ExtractorTest } from "./extractor_test/extractor_test.js";
 
 export class ScriptRunnerService {
     private backendClient: BackendClient;

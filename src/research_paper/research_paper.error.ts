@@ -1,4 +1,4 @@
-import { CustomError } from "../types/types";
+import { CustomError } from "../types/types.js";
 
 export class ExistingResearchPaperError extends CustomError {
   constructor(message: string) {

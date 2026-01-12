@@ -1,4 +1,4 @@
-import { CreatePlanResponse } from "../backend_client/backend_client";
+import { CreatePlanResponse } from "../backend_client/backend_client.js";
 
 export interface PlanningTestDto {
     sumOfHelpfulness: number;

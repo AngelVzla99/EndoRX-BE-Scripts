@@ -1,6 +1,6 @@
-import { LoggerClient } from "../../clients/logger.client";
-import { BackendClient } from "../backend_client/backend_client";
-import { EXTRACTOR_TEST_MESSAGES } from "./extractor_test.constants";
+import { LoggerClient } from "../../clients/logger.client.js";
+import { BackendClient } from "../backend_client/backend_client.js";
+import { EXTRACTOR_TEST_MESSAGES } from "./extractor_test.constants.js";
 
 export class ExtractorTest {
 

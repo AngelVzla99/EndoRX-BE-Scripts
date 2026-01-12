@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { PlanPrimitiveSchema } from "../plan-primitives/plan-primitives.dto";
+import { PlanPrimitiveSchema } from "../plan-primitives/plan-primitives.dto.js";
 
 export const GetPdfResponseSchema = z.object({
     pdfUrl: z.string(),

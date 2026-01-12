@@ -1,7 +1,7 @@
-import { BackendClient, CreatePlanResponse, PatientProfileDto, PlanItem, PlanItemFeedback, UpdatePatientProfileDto } from "../backend_client/backend_client";
-import { LoggerClient } from "../../clients/logger.client";
+import { BackendClient, CreatePlanResponse, PatientProfileDto, PlanItem, PlanItemFeedback, UpdatePatientProfileDto } from "../backend_client/backend_client.js";
+import { LoggerClient } from "../../clients/logger.client.js";
 import seedrandom from 'seedrandom';
-import { PlanningTestDto } from "./planning_test.dto";
+import { PlanningTestDto } from "./planning_test.dto.js";
 
 export enum PlanningTestCategory {
     GOOD = "good",
