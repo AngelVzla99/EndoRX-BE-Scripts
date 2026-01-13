@@ -1,10 +1,10 @@
-import { DynamicScrapperClient } from "../clients/dynamic.scrapper.client.js";
+import { DynamicScrapperClient } from "../clients/dynamic.scrapper.client.ts";
 import { load } from "cheerio";
-import { GeneratePrimitivesResponseDto, GeneratePrimitivesResponseSchema, GetDuplicatedDto, SymptomEnum } from "./llm.dto.js";
-import { LoggerClient } from "../clients/logger.client.js";
-import { GeneratePrimitivesSystemPrompt } from "./llm.prompt.js";
+import { GeneratePrimitivesResponseDto, GeneratePrimitivesResponseSchema, GetDuplicatedDto, SymptomEnum } from "./llm.dto.ts";
+import { LoggerClient } from "../clients/logger.client.ts";
+import { GeneratePrimitivesSystemPrompt } from "./llm.prompt.ts";
 import { createAgent } from "langchain";
-import { ModelProvider } from "./langchain/model.provider.js";
+import { ModelProvider } from "./langchain/model.provider.ts";
 
 export class LLMService {
     private scrapper: DynamicScrapperClient;

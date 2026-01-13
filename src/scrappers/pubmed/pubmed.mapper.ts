@@ -1,4 +1,4 @@
-import { CreateResearchPaperDto } from "../../research_paper/research_paper.dto.js";
+import { CreateResearchPaperDto } from "../../research_paper/research_paper.dto.ts";
 import {
   ArticleDto,
   PubMedPaperDto,
@@ -12,7 +12,7 @@ import {
   SectionDto,
   ParagraphDto,
   PaperBodyWithIdsDto,
-} from "./pubmed.dto.js";
+} from "./pubmed.dto.ts";
 
 export function mapArticleToPubMedPaper(article: ArticleDto): PubMedPaperDto {
   const articleMeta = article.front["article-meta"];

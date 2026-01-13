@@ -1,5 +1,5 @@
 import winston from "winston";
-import { ConfigService } from "../config/config.service";
+import { ConfigService } from "../config/config.service.ts";
 
 export class LoggerClient {
   private logger: winston.Logger;

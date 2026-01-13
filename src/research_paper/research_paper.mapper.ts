@@ -1,5 +1,5 @@
-import { ResearchPaperEntity } from "./research_paper.model.js";
-import { ResponseResearchPaperDto, ExternalIdsDto } from "./research_paper.dto.js";
+import { ResearchPaperEntity } from "./research_paper.model.ts";
+import { ResponseResearchPaperDto, ExternalIdsDto } from "./research_paper.dto.ts";
 
 export function mapResearchPaperEntityToResponseDto(
   entity: ResearchPaperEntity

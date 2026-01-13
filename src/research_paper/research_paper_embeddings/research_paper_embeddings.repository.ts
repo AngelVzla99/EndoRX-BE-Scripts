@@ -1,7 +1,7 @@
 import { Types } from "mongoose";
-import { LoggerClient } from "../../clients/logger.client";
-import { CreateResearchPaperEmbeddingDto } from "./research_paper_embeddings.dto";
-import { ResearchPaperEmbeddingEntity, ResearchPaperEmbeddingModel } from "./research_paper_embeddings.model";
+import { LoggerClient } from "../../clients/logger.client.ts";
+import { CreateResearchPaperEmbeddingDto } from "./research_paper_embeddings.dto.ts";
+import { ResearchPaperEmbeddingEntity, ResearchPaperEmbeddingModel } from "./research_paper_embeddings.model.ts";
 
 export class ResearchPaperEmbeddingsRepository {
   private logger: LoggerClient;

@@ -1,6 +1,6 @@
-import { LoggerClient } from "../../clients/logger.client.js";
-import { ResearchPaperService } from "../research_paper.service.js";
-import { LLMService } from "../../llm/llm.service.js";
+import { LoggerClient } from "../../clients/logger.client.ts";
+import { ResearchPaperService } from "../research_paper.service.ts";
+import { LLMService } from "../../llm/llm.service.ts";
 
 export class LLMResearchPapersService {
   private researchPaperService: ResearchPaperService;

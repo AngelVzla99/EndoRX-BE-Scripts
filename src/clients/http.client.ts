@@ -1,5 +1,5 @@
 import axios, { AxiosInstance, AxiosResponse } from "axios";
-import { LoggerClient } from "./logger.client.js";
+import { LoggerClient } from "./logger.client.ts";
 
 export enum HttpClientType {
   SEMANTIC_SCHOLAR = "SEMANTIC_SCHOLAR",

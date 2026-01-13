@@ -3,8 +3,8 @@ import {
   type MongoDBAtlasVectorSearchLibArgs,
 } from "@langchain/mongodb";
 import type { Document } from "@langchain/core/documents";
-import { ConfigService } from "../../config/config.service";
-import { ModelProvider } from "./model.provider";
+import { ConfigService } from "../../config/config.service.ts";
+import { ModelProvider } from "./model.provider.ts";
 
 export class LangchainVectorStore {
   private dbConfig: MongoDBAtlasVectorSearchLibArgs;

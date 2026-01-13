@@ -43,6 +43,7 @@ export const PlanPrimitiveSchema = z.object({
     domain: z.string(),
     clinicalDescription: z.string(),
     frequencyPerWeek: z.number(),
+    repetitionDays: z.number().int(),
     timeBurdenMinutesPerDay: z.number(),
     mechanismTags: z.array(z.string()).optional(),
     contraindicationTags: z.array(z.string()).optional(),

@@ -1,6 +1,6 @@
-import { PlanPrimitiveEntity } from "./plan-primitives.model.js";
-import { CreatePlanPrimitiveDto, CreatePlanPrimitiveSchema, PlanPrimitiveDto } from "./plan-primitives.dto.js";
-import { PrimitiveDto } from "../llm/llm.dto.js";
+import { PlanPrimitiveEntity } from "./plan-primitives.model.ts";
+import { CreatePlanPrimitiveDto, CreatePlanPrimitiveSchema, PlanPrimitiveDto } from "./plan-primitives.dto.ts";
+import { PrimitiveDto } from "../llm/llm.dto.ts";
 
 export function mapPlanPrimitiveEntityToResponseDto(
     entity: PlanPrimitiveEntity
@@ -13,6 +13,7 @@ export function mapPlanPrimitiveEntityToResponseDto(
         frequencyPerWeek: entity.frequencyPerWeek,
         timeBurdenMinutesPerDay: entity.timeBurdenMinutesPerDay,
         mechanismTags: entity.mechanismTags,
+        repetitionDays: entity.repetitionDays,
         relevantSymptoms: entity.relevantSymptoms?.map(symptom => ({
             type: symptom.type,
             relevance: symptom.relevance,
@@ -29,6 +30,7 @@ export function mapPrimitiveDtoToCreateDto(primitive: PrimitiveDto): CreatePlanP
         domain: primitive.domain,
         clinicalDescription: primitive.clinicalDescription,
         frequencyPerWeek: primitive.frequencyPerWeek,
+        repetitionDays: primitive.repetitionDays,
         timeBurdenMinutesPerDay: primitive.timeBurdenMinutesPerDay,
         mechanismTags: primitive.mechanismTags,
         relevantSymptoms: primitive.relevantSymptoms?.map(symptom => ({

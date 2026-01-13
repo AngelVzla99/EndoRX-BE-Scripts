@@ -1,9 +1,9 @@
-import { HttpClient } from "../../clients/http.client.js";
-import { HttpClientType } from "../../clients/http.client.js";
-import { ConfigService } from "../../config/config.service.js";
-import { LoggerClient } from "../../clients/logger.client.js";
-import { Config } from "../../config/config.types.js";
-import { GetScribesResponse } from "./commure.dtos.js";
+import { HttpClient } from "../../clients/http.client.ts";
+import { HttpClientType } from "../../clients/http.client.ts";
+import { ConfigService } from "../../config/config.service.ts";
+import { LoggerClient } from "../../clients/logger.client.ts";
+import { Config } from "../../config/config.types.ts";
+import { GetScribesResponse } from "./commure.dtos.ts";
 
 export class CommureHttpClient {
   private client: HttpClient;

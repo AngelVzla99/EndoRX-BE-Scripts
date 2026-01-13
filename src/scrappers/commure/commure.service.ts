@@ -1,9 +1,9 @@
-import { CommureHttpClient } from "./commure.http.client.js";
-import { AudioScribeRepository } from "./audio-scribe.repository.js";
-import { mapScribeApiResponseToCreateDto, mapAudioScribeEntityToDto } from "./audio-scribe.mapper.js";
-import { AudioScribeDto } from "./audio-scribe.dto.js";
-import { LoggerClient } from "../../clients/logger.client.js";
-import { ScribeApiResponse } from "./commure.dtos.js";
+import { CommureHttpClient } from "./commure.http.client.ts";
+import { AudioScribeRepository } from "./audio-scribe.repository.ts";
+import { mapScribeApiResponseToCreateDto, mapAudioScribeEntityToDto } from "./audio-scribe.mapper.ts";
+import { AudioScribeDto } from "./audio-scribe.dto.ts";
+import { LoggerClient } from "../../clients/logger.client.ts";
+import { ScribeApiResponse } from "./commure.dtos.ts";
 
 export class CommureService {
   private httpClient: CommureHttpClient;

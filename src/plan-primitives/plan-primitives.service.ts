@@ -1,7 +1,7 @@
-import { PlanPrimitiveRepository } from "./plan-primitives.repository.js";
-import { CreatePlanPrimitiveDto } from "./plan-primitives.dto.js";
-import { mapPlanPrimitiveEntityToResponseDto, mapPrimitiveDtoToCreateDto } from "./plan-primitives.mapper.js";
-import { GeneratePrimitivesResponseDto } from "../llm/llm.dto.js";
+import { PlanPrimitiveRepository } from "./plan-primitives.repository.ts";
+import { CreatePlanPrimitiveDto } from "./plan-primitives.dto.ts";
+import { mapPlanPrimitiveEntityToResponseDto, mapPrimitiveDtoToCreateDto } from "./plan-primitives.mapper.ts";
+import { GeneratePrimitivesResponseDto } from "../llm/llm.dto.ts";
 
 export class PlanPrimitiveService {
     private planPrimitiveRepository: PlanPrimitiveRepository;

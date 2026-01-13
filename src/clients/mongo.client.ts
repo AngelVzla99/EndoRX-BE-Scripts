@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { MongoClient } from "mongodb";
-import { LoggerClient } from "./logger.client.js";
-import { ConfigService } from "../config/config.service.js";
+import { LoggerClient } from "./logger.client.ts";
+import { ConfigService } from "../config/config.service.ts";
 
 export class MongoSingleton {
   private static instance: MongoSingleton;

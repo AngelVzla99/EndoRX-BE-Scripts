@@ -1,9 +1,9 @@
-import { ResearchPaperRepository } from "./research_paper.repository.js";
-import { CreateResearchPaperDto, ResponseResearchPaperDto, ExternalIdsDto, CreateResearchPaperSchema } from "./research_paper.dto.js";
-import { mapResearchPaperEntityToResponseDto } from "./research_paper.mapper.js";
-import { LoggerClient } from "../clients/logger.client.js";
-import { ExistingResearchPaperError, InvalidExternalIdsError, NoValidTitlesError } from "./research_paper.error.js";
-import { CustomError } from "../types/types.js";
+import { ResearchPaperRepository } from "./research_paper.repository.ts";
+import { CreateResearchPaperDto, ResponseResearchPaperDto, ExternalIdsDto, CreateResearchPaperSchema } from "./research_paper.dto.ts";
+import { mapResearchPaperEntityToResponseDto } from "./research_paper.mapper.ts";
+import { LoggerClient } from "../clients/logger.client.ts";
+import { ExistingResearchPaperError, InvalidExternalIdsError, NoValidTitlesError } from "./research_paper.error.ts";
+import { CustomError } from "../types/types.ts";
 
 export class ResearchPaperService {
   private researchPaperRepository: ResearchPaperRepository;

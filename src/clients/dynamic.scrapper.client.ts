@@ -1,6 +1,6 @@
 import { Builder, Browser, WebDriver, By, until } from "selenium-webdriver";
 import chrome from "selenium-webdriver/chrome.js";
-import { LoggerClient } from "./logger.client.js";
+import { LoggerClient } from "./logger.client.ts";
 
 export interface ScrapedPage {
   html: string;

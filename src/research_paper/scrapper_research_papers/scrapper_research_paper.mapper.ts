@@ -1,6 +1,6 @@
-import { PubMedPaperDto } from "../../scrappers/pubmed/pubmed.dto";
-import { SemanticScholarFullDataPaperDto } from "../../scrappers/semantic_scholar/semantic-scholar.dto";
-import { CreateResearchPaperDto, CreateResearchPaperSchema } from "../research_paper.dto";
+import { PubMedPaperDto } from "../../scrappers/pubmed/pubmed.dto.ts";
+import { SemanticScholarFullDataPaperDto } from "../../scrappers/semantic_scholar/semantic-scholar.dto.ts";
+import { CreateResearchPaperDto, CreateResearchPaperSchema } from "../research_paper.dto.ts";
 
 export function mapSemanticScholarPaperDtoToCreateResearchPaperDto(paperDto: SemanticScholarFullDataPaperDto): CreateResearchPaperDto {
   if (!paperDto.openAccessPdf?.url) {

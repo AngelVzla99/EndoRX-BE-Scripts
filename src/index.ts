@@ -1,56 +1,109 @@
-import { MongoSingleton } from "./clients/mongo.client";
-import { LLMResearchPapersService } from "./research_paper/llm_research_papers/llm_research_papers.service";
-import { ScrapperResearchPaperService } from "./research_paper/scrapper_research_papers/scrapper_research_paper.service";
-import { ScriptRunnerService } from "./script_runner/script_runner.service";
+import yargs from "yargs";
+import { hideBin } from "yargs/helpers";
+import { MongoSingleton } from "./clients/mongo.client.ts";
+import { LoggerClient } from "./clients/logger.client.ts";
+import { backfillRepetitionDays } from "./plan-primitives/scripts/backfill-repetition-days.ts";
+import { ScriptRunnerService } from "./script_runner/script_runner.service.ts";
 
+type ScriptRunnerAction =
+  | "test-extractor"
+  | "test-plan-quality"
+  | "generate-primitives"
+  | "response-time-stats";
+
+const logger = new LoggerClient();
+const mongo = MongoSingleton.getInstance();
+const scriptRunnerService = new ScriptRunnerService();
+const scriptRunnerActions: ScriptRunnerAction[] = [
+  "test-extractor",
+  "test-plan-quality",
+  "generate-primitives",
+  "response-time-stats",
+];
 
 // DO NOT REMOVE THIS LINE
-await MongoSingleton.getInstance().getConnection();
+await mongo.getConnection();
 
+async function runScriptRunner(action: ScriptRunnerAction): Promise<void> {
+  switch (action) {
+    case "test-extractor":
+      await scriptRunnerService.testExtractor();
+      break;
+    case "test-plan-quality":
+      await scriptRunnerService.testPlanQuality();
+      break;
+    case "generate-primitives":
+      await scriptRunnerService.generatePrimitives();
+      break;
+    case "response-time-stats":
+      await scriptRunnerService.responseTimeStatistics();
+      break;
+    default:
+      logger.error("Unsupported ScriptRunnerService action", { action });
+  }
+}
 
+async function runBackfillRepetitionDays(): Promise<void> {
+  const result = await backfillRepetitionDays({ manageConnection: false });
+  logger.info("Backfill repetitionDays finished", result);
+}
 
+async function main(): Promise<void> {
+  await yargs(hideBin(process.argv))
+    .scriptName("scripts")
+    .usage("Usage: yarn ts-node src/index.ts <command> [options]")
+    .command(
+      "backfill-repetition-days",
+      "Backfill repetitionDays for plan primitives",
+      (cmd) =>
+        cmd.example(
+          "$0 backfill-repetition-days",
+          "Recompute repetitionDays for all plan primitives",
+        ),
+      async () => {
+        await runBackfillRepetitionDays();
+      },
+    )
+    .command<{ action: ScriptRunnerAction }>(
+      "script-runner <action>",
+      "Run ScriptRunnerService tasks",
+      (cmd) =>
+        cmd
+          .positional("action", {
+            describe: "ScriptRunnerService action to execute",
+            choices: scriptRunnerActions,
+            type: "string",
+          })
+          .example(
+            "$0 script-runner test-extractor",
+            "Run the extractor test harness",
+          )
+          .example(
+            "$0 script-runner response-time-stats",
+            "Measure /chat-message response time statistics",
+          ),
+      async ({ action }) => {
+        await runScriptRunner(action);
+      },
+    )
+    .demandCommand(1, "Please specify a command to run.")
+    .strict()
+    .help("help")
+    .alias("help", "h")
+    .alias("version", "v")
+    .recommendCommands()
+    .parseAsync();
+}
 
-
-
-// const names =[
-//     // 'Andrea+Vidali',
-//     // 'Mauricio+Abrão',
-//     // 'Alessandra+Di+Giovanni',
-//     // 'Madhu+Bagaria',
-//     // 'Mallory+Stuparich',
-//     // 'Marcello+Ceccaroni',
-//     // 'Mario+Malzoni',
-//     'Alessio+Pigazzi',
-//     'Joseph+Raccuia',
-//     'Francesco+Di+Chiara',
-//     'Marco+Zoccali',
-//     'Henrique+Abrão',
-// ]
-
-// const service = new ScrapperResearchPaperService();
-// for (const name of names) {
-//     console.log('Getting and saving research paper for '+name);
-//     await service.getAndSaveResearchPubsubScrapper(name);
-//     console.log('Research paper saved for '+name);
-// }
-
-
-
-
-// const service = new LLMResearchPapersService();
-// await service.populateDatabase();
-
-
-
-const service = new ScriptRunnerService();
-await service.testExtractor();
-
-
-
-
-
-
+try {
+  await main();
+  logger.info("Script completed successfully");
+} catch (error) {
+  logger.error("Script failed", {
+    error: error instanceof Error ? error.message : String(error),
+  });
+  process.exitCode = 1;
+}
 
 // do not remove this line
-await MongoSingleton.getInstance().disconnect();
-console.log('Script completed successfully');
+await mongo.disconnect();

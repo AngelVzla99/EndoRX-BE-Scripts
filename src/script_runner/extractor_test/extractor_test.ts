@@ -1,6 +1,6 @@
-import { LoggerClient } from "../../clients/logger.client";
-import { BackendClient } from "../backend_client/backend_client";
-import { EXTRACTOR_TEST_MESSAGES } from "./extractor_test.constants";
+import { LoggerClient } from "../../clients/logger.client.ts";
+import { BackendClient } from "../backend_client/backend_client.ts";
+import { EXTRACTOR_TEST_MESSAGES } from "./extractor_test.constants.ts";
 
 export class ExtractorTest {
 

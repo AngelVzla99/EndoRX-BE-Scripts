@@ -1,4 +1,4 @@
-import { HttpClient, HttpClientType } from "../../clients/http.client.js";
+import { HttpClient, HttpClientType } from "../../clients/http.client.ts";
 import { 
   FindAuthorsResponseDto, 
   FindAuthorsResponseSchema,
@@ -6,7 +6,7 @@ import {
   FindPapersByAuthorIdResponseSchema,
   SemanticScholarFullDataPaperDto,
   SemanticScholarFullDataSchema
-} from "./semantic-scholar.dto.js";
+} from "./semantic-scholar.dto.ts";
 
 export class SemanticScholarHttpClient {
   private client: HttpClient;
