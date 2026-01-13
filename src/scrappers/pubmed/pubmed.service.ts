@@ -1,6 +1,6 @@
-import { PubMedHttpClient } from "./pubmed.http.client.js";
-import { GetAuthorPaperIdsResponseDto, GetPapersByIdsResponseDto, PubMedPaperDto, GetPapersBodiesResponseDto } from "./pubmed.dto.js";
-import { mapArticlesToPubMedPapers, mapMedlineCitationDtoGetPapersByIdsResponseDto, mapArticlesBodiesWithIds } from "./pubmed.mapper.js";
+import { PubMedHttpClient } from "./pubmed.http.client.ts";
+import { GetAuthorPaperIdsResponseDto, GetPapersByIdsResponseDto, PubMedPaperDto, GetPapersBodiesResponseDto } from "./pubmed.dto.ts";
+import { mapArticlesToPubMedPapers, mapMedlineCitationDtoGetPapersByIdsResponseDto, mapArticlesBodiesWithIds } from "./pubmed.mapper.ts";
 
 export class PubMedService {
   private httpClient: PubMedHttpClient;

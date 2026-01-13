@@ -1,9 +1,9 @@
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
-import { MongoSingleton } from "./clients/mongo.client.js";
-import { LoggerClient } from "./clients/logger.client.js";
-import { backfillRepetitionDays } from "./plan-primitives/scripts/backfill-repetition-days.js";
-import { ScriptRunnerService } from "./script_runner/script_runner.service.js";
+import { MongoSingleton } from "./clients/mongo.client.ts";
+import { LoggerClient } from "./clients/logger.client.ts";
+import { backfillRepetitionDays } from "./plan-primitives/scripts/backfill-repetition-days.ts";
+import { ScriptRunnerService } from "./script_runner/script_runner.service.ts";
 
 type ScriptRunnerAction =
   | "test-extractor"

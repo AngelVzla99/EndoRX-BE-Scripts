@@ -1,6 +1,6 @@
-import { ScribeApiResponse } from "./commure.dtos.js";
-import { CreateAudioScribeDto, AudioScribeDto, ClinicalDocumentationDto } from "./audio-scribe.dto.js";
-import { AudioScribeEntity } from "./audio-scribe.model.js";
+import { ScribeApiResponse } from "./commure.dtos.ts";
+import { CreateAudioScribeDto, AudioScribeDto, ClinicalDocumentationDto } from "./audio-scribe.dto.ts";
+import { AudioScribeEntity } from "./audio-scribe.model.ts";
 
 export function mapScribeApiResponseToCreateDto(
   apiResponse: ScribeApiResponse

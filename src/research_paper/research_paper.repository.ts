@@ -1,6 +1,6 @@
-import { ResearchPaperModel, ResearchPaperEntity } from "./research_paper.model.js";
-import { CreateResearchPaperDto, ExternalIdsDto } from "./research_paper.dto.js";
-import { LoggerClient } from "../clients/logger.client.js";
+import { ResearchPaperModel, ResearchPaperEntity } from "./research_paper.model.ts";
+import { CreateResearchPaperDto, ExternalIdsDto } from "./research_paper.dto.ts";
+import { LoggerClient } from "../clients/logger.client.ts";
 
 export class ResearchPaperRepository {
   async createResearchPaper(dto: CreateResearchPaperDto): Promise<ResearchPaperEntity> {    

@@ -1,9 +1,9 @@
-import { MongoSingleton } from "../../clients/mongo.client.js";
-import { LoggerClient } from "../../clients/logger.client.js";
+import { MongoSingleton } from "../../clients/mongo.client.ts";
+import { LoggerClient } from "../../clients/logger.client.ts";
 import {
   PlanPrimitiveModel,
   calculateRepetitionDays,
-} from "../../plan-primitives/plan-primitives.model.js";
+} from "../../plan-primitives/plan-primitives.model.ts";
 
 type BackfillRepetitionDaysOptions = {
   manageConnection?: boolean;

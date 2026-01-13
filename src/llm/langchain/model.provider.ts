@@ -1,5 +1,5 @@
 import { BaseChatModel } from "@langchain/core/language_models/chat_models";
-import { ConfigService } from "../../config/config.service.js";
+import { ConfigService } from "../../config/config.service.ts";
 import { ChatVertexAI, VertexAIEmbeddings } from "@langchain/google-vertexai";
 import { Embeddings } from "@langchain/core/embeddings";
 

@@ -1,6 +1,6 @@
 import { AuthenticationClient, ManagementClient } from "auth0";
-import { ConfigService } from "../config/config.service.js";
-import { LoggerClient } from "../clients/logger.client.js";
+import { ConfigService } from "../config/config.service.ts";
+import { LoggerClient } from "../clients/logger.client.ts";
 
 export interface Auth0User {
     user_id: string;

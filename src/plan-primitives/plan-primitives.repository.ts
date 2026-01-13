@@ -1,5 +1,5 @@
-import { PlanPrimitiveModel, PlanPrimitiveEntity } from "./plan-primitives.model.js";
-import { CreatePlanPrimitiveDto } from "./plan-primitives.dto.js";
+import { PlanPrimitiveModel, PlanPrimitiveEntity } from "./plan-primitives.model.ts";
+import { CreatePlanPrimitiveDto } from "./plan-primitives.dto.ts";
 
 export class PlanPrimitiveRepository {
     async createPlanPrimitivesInBulk(dtoList: CreatePlanPrimitiveDto[]): Promise<PlanPrimitiveEntity[]> {

@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 import { Collection, Document } from "mongodb";
 import { MongoDBAtlasVectorSearchLibArgs } from "@langchain/mongodb";
-import { MongoSingleton } from "../../clients/mongo.client.js";
-import { CreateResearchPaperEmbeddingDto } from "./research_paper_embeddings.dto.js";
-import { ResearchPaperEmbeddingsRepository } from "./research_paper_embeddings.repository.js";
-import { ResearchPaperEmbeddingEntity } from "./research_paper_embeddings.model.js";
+import { MongoSingleton } from "../../clients/mongo.client.ts";
+import { CreateResearchPaperEmbeddingDto } from "./research_paper_embeddings.dto.ts";
+import { ResearchPaperEmbeddingsRepository } from "./research_paper_embeddings.repository.ts";
+import { ResearchPaperEmbeddingEntity } from "./research_paper_embeddings.model.ts";
 
 const collectionName = "research_paper_embeddings";
 

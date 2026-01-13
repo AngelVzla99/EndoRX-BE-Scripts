@@ -1,5 +1,5 @@
 import { Schema, model, InferSchemaType, Types } from "mongoose";
-import { SymptomEnum } from "../llm/llm.dto.js";
+import { SymptomEnum } from "../llm/llm.dto.ts";
 
 const RelevantSymptomSchema = new Schema({
   type: {

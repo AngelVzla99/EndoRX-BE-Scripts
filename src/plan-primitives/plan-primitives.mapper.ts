@@ -1,6 +1,6 @@
-import { PlanPrimitiveEntity } from "./plan-primitives.model.js";
-import { CreatePlanPrimitiveDto, CreatePlanPrimitiveSchema, PlanPrimitiveDto } from "./plan-primitives.dto.js";
-import { PrimitiveDto } from "../llm/llm.dto.js";
+import { PlanPrimitiveEntity } from "./plan-primitives.model.ts";
+import { CreatePlanPrimitiveDto, CreatePlanPrimitiveSchema, PlanPrimitiveDto } from "./plan-primitives.dto.ts";
+import { PrimitiveDto } from "../llm/llm.dto.ts";
 
 export function mapPlanPrimitiveEntityToResponseDto(
     entity: PlanPrimitiveEntity

@@ -1,6 +1,6 @@
-import { SemanticScholarHttpClient } from "./semantic-scholar.http.client.js";
-import { GetPapersFromAuthorResponseDto, SemanticScholarFullDataPaperDto } from "./semantic-scholar.dto.js";
-import { LoggerClient } from "../../clients/logger.client.js";
+import { SemanticScholarHttpClient } from "./semantic-scholar.http.client.ts";
+import { GetPapersFromAuthorResponseDto, SemanticScholarFullDataPaperDto } from "./semantic-scholar.dto.ts";
+import { LoggerClient } from "../../clients/logger.client.ts";
 
 export class SemanticScholarService {
   private httpClient: SemanticScholarHttpClient;

@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import type { Config } from "./config.types.js";
+import type { Config } from "./config.types.ts";
 
 // In production (Cloud Run), secrets are mounted to /secrets/.env
 // In development, .env is in the root directory

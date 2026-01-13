@@ -1,4 +1,4 @@
-import { HttpClient, HttpClientType } from "../../clients/http.client.js";
+import { HttpClient, HttpClientType } from "../../clients/http.client.ts";
 import { XMLParser } from "fast-xml-parser";
 import { 
   PubMedSearchResponseDto, 
@@ -9,7 +9,7 @@ import {
   PubMedDatabaseFetchResponseSchema,
   PubMedFetchBodiesResponseSchema,
   PubMedFetchBodiesResponseDto
-} from "./pubmed.dto.js";
+} from "./pubmed.dto.ts";
 
 export class PubMedHttpClient {
   private client: HttpClient;

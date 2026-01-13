@@ -1,14 +1,14 @@
 import { Types } from "mongoose";
-import { LoggerClient } from "../../clients/logger.client.js";
-import { PaperBodyWithIdsDto } from "../../scrappers/pubmed/pubmed.dto.js";
-import { mapPubMedPaperDtoToCreateResearchPaper, mapPubMedPaperToCreateResearchPaper } from "../../scrappers/pubmed/pubmed.mapper.js";
-import { PubMedService } from "../../scrappers/pubmed/pubmed.service.js";
-import { SemanticScholarService } from "../../scrappers/semantic_scholar/semantic-scholar.service.js";
-import { CreateResearchPaperDto, ExternalIdsDto, ResponseResearchPaperDto } from "../research_paper.dto.js";
-import { ResearchPaperService } from "../research_paper.service.js";
-import { mapHybridScrapperToCreateResearchPaperDto, mapPubMedPaperDtoToCreateResearchPaperDto, mapSemanticScholarPaperDtoToCreateResearchPaperDto } from "./scrapper_research_paper.mapper.js";
-import { LangchainVectorStore } from "../../llm/llm.vector.store.js";
-import { getDbConfigForResearchPaperVectorSearch, ResearchPaperEmbeddingsService } from "../research_paper_embeddings/research_paper_embeddings.service.js";
+import { LoggerClient } from "../../clients/logger.client.ts";
+import { PaperBodyWithIdsDto } from "../../scrappers/pubmed/pubmed.dto.ts";
+import { mapPubMedPaperDtoToCreateResearchPaper, mapPubMedPaperToCreateResearchPaper } from "../../scrappers/pubmed/pubmed.mapper.ts";
+import { PubMedService } from "../../scrappers/pubmed/pubmed.service.ts";
+import { SemanticScholarService } from "../../scrappers/semantic_scholar/semantic-scholar.service.ts";
+import { CreateResearchPaperDto, ExternalIdsDto, ResponseResearchPaperDto } from "../research_paper.dto.ts";
+import { ResearchPaperService } from "../research_paper.service.ts";
+import { mapHybridScrapperToCreateResearchPaperDto, mapPubMedPaperDtoToCreateResearchPaperDto, mapSemanticScholarPaperDtoToCreateResearchPaperDto } from "./scrapper_research_paper.mapper.ts";
+import { LangchainVectorStore } from "../../llm/llm.vector.store.ts";
+import { getDbConfigForResearchPaperVectorSearch, ResearchPaperEmbeddingsService } from "../research_paper_embeddings/research_paper_embeddings.service.ts";
 
 export class ScrapperResearchPaperService {
   keyWordsFilter = [

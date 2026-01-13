@@ -1,6 +1,6 @@
-import { AudioScribeModel, AudioScribeEntity } from "./audio-scribe.model.js";
-import { CreateAudioScribeDto } from "./audio-scribe.dto.js";
-import { LoggerClient } from "../../clients/logger.client.js";
+import { AudioScribeModel, AudioScribeEntity } from "./audio-scribe.model.ts";
+import { CreateAudioScribeDto } from "./audio-scribe.dto.ts";
+import { LoggerClient } from "../../clients/logger.client.ts";
 
 export class AudioScribeRepository {
   private logger: LoggerClient;

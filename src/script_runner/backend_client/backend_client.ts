@@ -1,5 +1,5 @@
-import { HttpClient, HttpClientType } from "../../clients/http.client.js";
-import { ConfigService } from "../../config/config.service.js";
+import { HttpClient, HttpClientType } from "../../clients/http.client.ts";
+import { ConfigService } from "../../config/config.service.ts";
 import { z } from "zod";
 
 interface PostChatMessagePayload {
